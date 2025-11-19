@@ -10,6 +10,11 @@ on:
 jobs:
     build:
         runs-on: ubuntu-latest
+        
+        permissions:
+          contents: write
+          pages: write       
+
         steps:
             - name: Checkout
               uses: actions/checkout@v2
@@ -33,6 +38,3 @@ jobs:
                   PUBLISH_BRANCH: master
                   PUBLISH_DIR: ./public
                   commit_message: ${{ github.event.head_commit.message }}
-        # permissions:
-        #   contents: write
-        #   # pages: write       
