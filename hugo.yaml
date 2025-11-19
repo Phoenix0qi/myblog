@@ -23,7 +23,7 @@ menu:
       pageRef: /docs
       weight: 1
     - name: Blog
-      pageRef: /blog
+      pageRef: /blogs
       weight: 2
     - identifier: music
       name: Music
