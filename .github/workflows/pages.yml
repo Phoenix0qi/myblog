@@ -27,7 +27,7 @@ jobs:
               with:
                   hugo-version: "latest"
 
-            - name: Build Web
+            - name: Build Web   
               run: hugo
 
             - name: Deploy Web   
