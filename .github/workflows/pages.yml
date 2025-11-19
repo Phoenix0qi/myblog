@@ -34,7 +34,7 @@ jobs:
               uses: peaceiris/actions-gh-pages@v4
               with:
                   PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN  }} #  PERSONAL_TOKEN
-                  EXTERNAL_REPOSITORY: phoenix0qi/phoenix0qi.github.io # 
-                  PUBLISH_BRANCH: master
+                  EXTERNAL_REPOSITORY: Phoenix0qi/chongqi # phoenix0qi/phoenix0qi.github.io # 
+                  PUBLISH_BRANCH: master # cf-pages
                   PUBLISH_DIR: ./public
                   commit_message: ${{ github.event.head_commit.message }}
