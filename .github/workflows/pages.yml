@@ -33,6 +33,3 @@ jobs:
                   PUBLISH_BRANCH: master
                   PUBLISH_DIR: ./public
                   commit_message: ${{ github.event.head_commit.message }}
-                  
-                # https://github.com/Phoenix0qi/Phoenix0qi.git
-                # https://github.com/phoenix0qi/phoenix0qi.github.io.git/'
