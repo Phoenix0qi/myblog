@@ -11,9 +11,9 @@ jobs:
     build:
         runs-on: ubuntu-latest
         
-        permissions:
-          contents: write
-          pages: write       
+        # permissions:
+        #   contents: write
+        #   pages: write       
 
         steps:
             - name: Checkout
@@ -33,7 +33,7 @@ jobs:
             - name: Deploy Web   
               uses: peaceiris/actions-gh-pages@v4
               with:
-                  PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN  }} #  PERSONAL_TOKEN
+                  PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }} #  PERSONAL_TOKEN
                   EXTERNAL_REPOSITORY: Phoenix0qi/chongqi # phoenix0qi/phoenix0qi.github.io # 
                   PUBLISH_BRANCH: master # cf-pages
                   PUBLISH_DIR: ./public
