@@ -1,5 +1,5 @@
 # Hugo configuration file
-baseURL: "https://phoenix0qi.github.io/Phoenix0qi/"
+baseURL: "https://phoenix0qi.github.io/"
 languageCode: en-us
 
 title: ZCQ Notebook
