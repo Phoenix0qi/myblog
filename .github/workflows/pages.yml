@@ -31,10 +31,10 @@ jobs:
               run: hugo
 
             - name: Deploy Web   
-              uses: peaceiris/actions-gh-pages@v4
+              uses: peaceiris/actions-gh-pages@v3
               with:
                   personal_token: ${{ secrets.PERSONAL_TOKEN }} #  PERSONAL_TOKEN
-                  external_repository: phoenix0qi/phoenix0qi.github.io # Phoenix0qi/chongqi # 
+                  external_repository: Phoenix0qi/phoenix0qi.github.io # Phoenix0qi/chongqi # 
                   publish_branch: master # cf-pages
                   publish_dir: ./public
                   commit_message: ${{ github.event.head_commit.message }}
