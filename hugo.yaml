@@ -1,4 +1,7 @@
 # Hugo configuration file
+# ------------------------------------- #
+# ---- General Settings --------------- #
+# ------------------------------------- #
 baseURL: "https://phoenix0qi.github.io/"
 languageCode: en-us
 
