@@ -16,6 +16,3 @@ This is the landing page.
 
 For more information, visit [Hextra](https://imfing.github.io/hextra).
 
-
-111
-

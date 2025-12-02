@@ -9,6 +9,8 @@ title: ZCQ Notebook
 
 theme: hextra
 
+# ALLOWED_HOSTS=phoenix0qi.github.io
+
 
 markup:
   # allow raw html
@@ -29,11 +31,34 @@ menu:
     - name: Blog
       pageRef: /blogs
       weight: 2
+
     - identifier: music
       name: Music
-      parent: docs
       pageRef: /music
       weight: 2
+
+    - identifier: 吉他知识体系
+      name: 吉他知识体系
+      parent: music
+      pageRef: /music/吉他知识体系
+      weight: 1
+    - identifier: 扒带记录
+      name: 扒带记录
+      parent: music
+      pageRef: /music/扒带记录
+      weight: 2
+    - identifier: 读书笔记
+      name: 读书笔记
+      parent: music
+      pageRef: /music/读书笔记
+      weight: 3
+    - identifier: 代码工具_规划
+      name: 代码工具_规划
+      parent: music
+      pageRef: /music/代码工具_规划
+      weight: 4
+
+
     - name: About
       pageRef: /about
       weight: 3
@@ -93,7 +118,7 @@ params:
     displayLogo: true
     logo:
       path: images/Husky.png
-      dark: images/git.png
+      dark: images/Huskynight.jpg
       link: /
       width: 50
       height: 50
