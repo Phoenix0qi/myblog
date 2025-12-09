@@ -31,6 +31,13 @@ menu:
     - name: Blog
       pageRef: /blogs
       weight: 2
+    
+    - identifier: 科研
+      name: PhD Research
+      pageRef: /科研
+      weight: 2
+
+
 
     - identifier: music
       name: Music
@@ -58,11 +65,6 @@ menu:
       pageRef: /music/代码工具_规划
       weight: 4
 
-
-    - name: About
-      pageRef: /about
-      weight: 3
-
     - name: Contact ↗
       url: "https://github.com/Phoenix0qi"
       weight: 3
@@ -73,37 +75,35 @@ menu:
 
     - name: GitHub
       weight: 5
-      url: "https://github.com/Phoenix0qi/guitar-learning-notebook"
+      url: "https://github.com/Phoenix0qi/myblog"
       params:
         icon: github
+
     - name: Theme Toggle
       params:
         type: theme-toggle
         label: true # optional, default is false
 
-    - name: 语言切换器
+    - name: Language Switcher
       params:
         type: language-switch
         label: true # optional, default is false
         icon: "globe-alt" # optional, default is "translate"
 
-# 左侧栏屏蔽部分页面 在文档md开头设置
-# ---
-# title: 配置
-# sidebar:
-#   exclude: true
-# ---
+  # 左侧栏屏蔽部分页面 在文档md开头设置
+  # ---
+  # title: 配置
+  # sidebar:
+  #   exclude: true
+  # ---
   sidebar: # 左侧主边栏
-    - name: 更多
+    - name: More
       params:
         type: separator
       weight: 1
-    - name: "关于"
-      pageRef: "/about"
-      weight: 2
-    - name: "Hugo 文档 ↗" # 额外链接
+    - name: "Contect me ↗" # 额外链接
       url: "https://github.com/Phoenix0qi"
-      weight: 3
+      weight: 2
 
 
 # 右侧边栏，可在便体内设置
@@ -124,12 +124,16 @@ params:
       height: 50
 
   footer:
-    displayCopyright: false
+    displayCopyright: true
     displayPoweredBy: true
 
-  editURL: # 页面编辑链接， 编辑链接将基于提供的 URL 作为根目录自动为每个页面生成， 
-    enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+
+
+  # editURL: # 页面编辑链接， 编辑链接将基于提供的 URL 作为根目录自动为每个页面生成， 
+  #   enable: true
+  #   base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+
+
 
   # 页面内部也可设置 编辑
   # title: 配置
@@ -145,6 +149,7 @@ params:
     # light | dark | system
     default: system
     displayToggle: true
+
 
   # 最后修改时间
   displayUpdatedDate: true
@@ -163,6 +168,8 @@ params:
   page:
     # full (100%), wide (90rem), normal (1280px)
     width: normal
+    tabs:
+      sync: true # two tab blocks will always display the same selected item:
 
 
   # 搜索设置
