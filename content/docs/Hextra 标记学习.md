@@ -1,8 +1,14 @@
 ---
 title: Hextra 标记学习
 type: docs
-
+params:
+  math: true
 ---
+
+
+# Math
+
+$1234$
 
 # Hextra Marks
 
@@ -96,6 +102,7 @@ This will be hidden by default.
 
 Heroicons v1 outline icons are available out of the box.
 [Heroicons](https://v1.heroicons.com/)
+[Heroicons v1](https://heroicons.com/solid)
 
 ## Badge
 {{< badge "Badge" >}}

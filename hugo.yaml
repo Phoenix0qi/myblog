@@ -10,17 +10,35 @@ title: ZCQ Notebook
 theme: hextra
 
 # ALLOWED_HOSTS=phoenix0qi.github.io
+enableGitInfo: true
 
+frontmatter:
+  lastmod: [":fileModTime", "lastmod"]
 
 markup:
   # allow raw html
   goldmark:
     renderer:
       unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - '\['
+            - '\]'
+          - - $$
+            - $$
+          inline:
+          - - '$'
+            - '$'
+        enable: true
+
 
   # enable hextra syntax highlight
   highlight:
     noClasses: false
+
+  # enable math 
 
 menu:
   main:
@@ -113,6 +131,7 @@ menu:
 # ---
 
 params:
+  # math: true # HUGO 识别行内公式; 但是 hextra模板有 $ 符号；需要在每个 文件 头 色织 params-math：true
   navbar: 
     displayTitle: true
     displayLogo: true

@@ -4,6 +4,8 @@ type: docs
 weight: 1
 sidebar:
   open: true
+params:
+  math: true # 行内公式
 ---
  
 
@@ -436,6 +438,7 @@ sidebar:
     - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20250914172413797.png)
     - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20251025143349326.png)
     - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20251025144641382.png) (https://www.youtube.com/watch?v=0V_dF8soKpc)
+    - [POW Music - CAGED Sheet](https://learn.powmusic.co/p/my-downloadable-13022)
   - （Major scale and Penta pattern）
     - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20251028161441610.png)
   
