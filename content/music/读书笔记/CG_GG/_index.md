@@ -3,7 +3,7 @@ title: GG_CG
 type: docs
 weigght: 1
 sidebar:
-  open: true
+  open: false
 ---
 {{< cards >}}
   {{< card link="./GG_CG_1" title="GG_CG_1" icon="academic-cap" >}}

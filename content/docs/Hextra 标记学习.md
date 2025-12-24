@@ -5,14 +5,61 @@ params:
   math: true
 ---
 
+- [隐藏页面](#隐藏页面)
+- [1. Banner](#1-banner)
+- [2. Math](#2-math)
+- [3. Hextra Marks](#3-hextra-marks)
+  - [3.1. Callout](#31-callout)
+  - [3.2. Cards](#32-cards)
+  - [3.3. Details](#33-details)
+  - [3.4. FileTree](#34-filetree)
+  - [3.5. Icon](#35-icon)
+  - [3.6. Badge](#36-badge)
+  - [3.7. YouTube](#37-youtube)
+  - [3.8. PDF](#38-pdf)
+  - [3.9. Steps](#39-steps)
+    - [3.9.1. Step 1](#391-step-1)
+    - [3.9.2. Step 2](#392-step-2)
+  - [3.10. Tabs](#310-tabs)
+    - [3.10.1. default](#3101-default)
+    - [3.10.2. markdown code block](#3102-markdown-code-block)
+- [4. Customize shortcodes](#4-customize-shortcodes)
 
-# Math
+
+## 隐藏页面
+hidden: true 
+
+```
+  ---
+  title: "不显示在列表"
+  date: 2025-12-22
+  hidden: true # 仅在主题支持时有效
+  ---
+```
+
+##  1. <a name='Banner'></a>Banner
+hugo.yaml:
+```
+params:
+  banner:
+    key: 'announcement-xxx'
+    message: |
+      🎉 Welcome! [Hextra](https://github.com/hextra/hextra) is a static site generator that helps you build modern websites.
+```
+
+The banner will be displayed on all pages.
+
+The field message supports Markdown syntax.
+
+If you want to use template syntax, you can define the partial in layouts/_partials/custom/banner.html. In this case, the field message will be ignored.
+
+##  2. <a name='Math'></a>Math
 
 $1234$
 
-# Hextra Marks
+##  3. <a name='HextraMarks'></a>Hextra Marks
 
-## Callout
+###  3.1. <a name='Callout'></a>Callout
 
 {{< callout type="info" >}}
   A **callout** is a short piece of text intended to attract attention.
@@ -45,7 +92,7 @@ $1234$
 
 
 
-## Cards 
+###  3.2. <a name='Cards'></a>Cards 
 {{< cards cols="1" >}}
   {{< card link="/" title="Top Card" >}}
   {{< card link="/" title="Bottom Card" >}}
@@ -61,7 +108,7 @@ $1234$
   {{< card link="../callout" title="Card with red tag" tag="tag text" tagColor="red" >}}
 {{< /cards >}}
 
-## Details
+###  3.3. <a name='Details'></a>Details
 {{% details title="Details" %}}
 
 This is the content of the details.
@@ -78,7 +125,7 @@ This will be hidden by default.
 {{% /details %}}
 
 
-## FileTree
+###  3.4. <a name='FileTree'></a>FileTree
 {{< filetree/container >}}
   {{< filetree/folder name="content" >}}
     {{< filetree/file name="_index.md" >}}
@@ -92,7 +139,7 @@ This will be hidden by default.
 {{< /filetree/container >}}
 
 
-## Icon
+###  3.5. <a name='Icon'></a>Icon
 
 [List of available icons ](https://github.com/imfing/hextra/blob/main/data/icons.yaml)
 
@@ -104,7 +151,7 @@ Heroicons v1 outline icons are available out of the box.
 [Heroicons](https://v1.heroicons.com/)
 [Heroicons v1](https://heroicons.com/solid)
 
-## Badge
+###  3.6. <a name='Badge'></a>Badge
 {{< badge "Badge" >}}
 
 {{< badge content="Badge" >}}
@@ -122,15 +169,15 @@ Heroicons v1 outline icons are available out of the box.
 
 
 
-## YouTube
+###  3.7. <a name='YouTube'></a>YouTube
 {{< youtube bUZK9dasP8s >}}
 
-## PDF 
+###  3.8. <a name='PDF'></a>PDF 
 - PDF test:
 - {{< pdf "/PDF/坐标转换.pdf" >}}
 - {{< pdf "https://example.com/sample.pdf" >}}
 
-## Steps
+###  3.9. <a name='Steps'></a>Steps
 
 {{< callout type="warning" >}}
  Please note that this shortcode is intended only for Markdown content. If you put HTML content or other shortcodes as step content, it may not render as expected.
@@ -138,19 +185,19 @@ Heroicons v1 outline icons are available out of the box.
 
 {{% steps %}}
 
-### Step 1
+####  3.9.1. <a name='Step1'></a>Step 1
 
 This is the first step.
 
-### Step 2
+####  3.9.2. <a name='Step2'></a>Step 2
 
 This is the second step.
 
 {{% /steps %}}
 
 
-## Tabs
-### default
+###  3.10. <a name='Tabs'></a>Tabs
+####  3.10.1. <a name='default'></a>default
 {{< tabs items="JSON,YAML,TOML" >}}
 
   {{< tab >}}**JSON**: JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax.{{< /tab >}}
@@ -160,7 +207,7 @@ This is the second step.
 {{< /tabs >}}
 
 
-### markdown code block
+####  3.10.2. <a name='markdowncodeblock'></a>markdown code block
 
 {{< tabs items="JSON,YAML,TOML" >}}
 
@@ -190,6 +237,6 @@ This is the second step.
 
 {{< /tabs >}}
 
-# Customize shortcodes
+##  4. <a name='Customizeshortcodes'></a>Customize shortcodes
 
 https://imfing.github.io/hextra/docs/advanced/customization/#component-layout-variables

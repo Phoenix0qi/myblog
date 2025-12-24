@@ -3,8 +3,13 @@ title: 读书笔记
 type: docs
 weight: 4
 sidebar:
-  open: true
+  open: false
 ---
+
+
+{{< callout type="warning" >}}
+  GTP文件，视频，剪辑 放在 Guitar-Learning-Notebook 仓库；不在Hugo博客内显示
+{{< /callout >}}
 
 
 # 书单目录

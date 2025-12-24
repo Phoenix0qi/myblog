@@ -3,32 +3,31 @@ title: GG_CG_2
 type: docs
 weight: 2
 sidebar:
-  open: true
+  open: false
 params:
   math: true # 行内公式
 ---
  
 
-<!-- vscode-markdown-toc -->
-* 1. [Alternate Picking](#AlternatePicking)
-* 2. [Sweep/Economy Picking](#SweepEconomyPicking)
-* 3. [Legato](#Legato)
-* 4. [Tapping](#Tapping)
-* 5. [Eight-Finger Tapping](#Eight-FingerTapping)
-* 6. [Pick and Fingers](#PickandFingers)
-* 7. [Extending the Fretboard](#ExtendingtheFretboard)
-* 8. [Extending Scales](#ExtendingScales)
-* 9. [Emulating the Fretboard](#EmulatingtheFretboard)
-* 10. [New Chordal Ideals](#NewChordalIdeals)
-* 11. [The 'Wrong' notes](#TheWrongnotes)
-* 12. [Approaching New Scales](#ApproachingNewScales)
-* 13. [On the CD](#OntheCD)
+- [Guthrie Govan - Creative Guitar 2](#guthrie-govan---creative-guitar-2)
+  - [1. Alternate Picking](#1-alternate-picking)
+    - [1.1. picking 方式](#11-picking-方式)
+    - [1.2. Exercises](#12-exercises)
+  - [2. Sweep/Economy Picking](#2-sweepeconomy-picking)
+    - [2.1. Sweep 模式](#21-sweep-模式)
+  - [3. Legato](#3-legato)
+  - [4. Tapping](#4-tapping)
+  - [5. Eight-Finger Tapping](#5-eight-finger-tapping)
+  - [6. Pick and Fingers](#6-pick-and-fingers)
+  - [7. Extending the Fretboard](#7-extending-the-fretboard)
+  - [8. Extending Scales](#8-extending-scales)
+  - [9. Emulating the Fretboard](#9-emulating-the-fretboard)
+  - [10. New Chordal Ideals](#10-new-chordal-ideals)
+  - [11. The 'Wrong' notes](#11-the-wrong-notes)
+  - [12. Approaching New Scales](#12-approaching-new-scales)
+  - [13. On the CD](#13-on-the-cd)
 
-<!-- vscode-markdown-toc-config
-	numbering=true
-	autoSave=true
-	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc -->
+
 
 # Guthrie Govan - Creative Guitar 2
 ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20251108140448236.png)
@@ -39,7 +38,7 @@ params:
 
 - 交替拨弦 《CG-GG-2》，《乔伊速度》均有介绍
 
-### picking 方式
+###  1.1. <a name='picking'></a>picking 方式
 - efficiency of movement
 - 拨片：
   - near the sharp, 更好控制
@@ -57,7 +56,7 @@ params:
   - Steve Morse 拇指+中指
   - George Lynch、Robben Ford、Pat Metheny： side of pick rather than sharp end
   - Eddie Van Halen: 不用anchor思路
-### Exercises
+###  1.2. <a name='Exercises'></a>Exercises
 - 练习思路
   - 演奏素材：音阶 + 音程 + 模进 
   - 练习技术：交替拨弦
@@ -192,7 +191,7 @@ params:
     | 演奏质量 好听程度，颗粒感 | ✔️     | ❌ 容易 sound ungainly and sloopy   |
 
 
-### Sweep 模式
+###  2.1. <a name='Sweep'></a>Sweep 模式
 - 基础模式
   - double 最高音最低音 转换方向
     - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20251109165058343.png)

@@ -38,7 +38,6 @@ markup:
   highlight:
     noClasses: false
 
-  # enable math 
 
 menu:
   main:
@@ -122,8 +121,10 @@ menu:
     - name: "Contect me ↗" # 额外链接
       url: "https://github.com/Phoenix0qi"
       weight: 2
-
-
+    - identifier: 吉他知识体系
+      Params:
+        sidebar:
+          open: false
 # 右侧边栏，可在便体内设置
 # ---
 # title: 配置
@@ -131,6 +132,10 @@ menu:
 # ---
 
 params:
+  sidebar:
+    open: false
+    defaultOpen: false
+
   # math: true # HUGO 识别行内公式; 但是 hextra模板有 $ 符号；需要在每个 文件 头 色织 params-math：true
   navbar: 
     displayTitle: true
@@ -145,7 +150,6 @@ params:
   footer:
     displayCopyright: true
     displayPoweredBy: true
-
 
 
   # editURL: # 页面编辑链接， 编辑链接将基于提供的 URL 作为根目录自动为每个页面生成， 
@@ -189,7 +193,6 @@ params:
     width: normal
     tabs:
       sync: true # two tab blocks will always display the same selected item:
-
 
   # 搜索设置
   search:

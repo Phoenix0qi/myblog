@@ -3,7 +3,7 @@ title: 每月规划
 type: docs
 weight: 1
 sidebar:
-  open: true
+  open: false
 ---
 
 {{< cards >}}

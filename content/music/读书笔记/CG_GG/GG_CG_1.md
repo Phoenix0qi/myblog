@@ -3,78 +3,72 @@ title: GG_CG_1
 type: docs
 weight: 1
 sidebar:
-  open: true
+  open: false
 params:
   math: true # 行内公式
 ---
  
 
-<!-- vscode-markdown-toc -->
-* 1. [General Stuff](#GeneralStuff)
-	* 1.1. [Goals](#Goals)
-	* 1.2. [Keeping an open mind](#Keepinganopenmind)
-	* 1.3. [Transcribing](#Transcribing)
-	* 1.4. [Recording Yourself Playing](#RecordingYourselfPlaying)
-* 2. [Technique](#Technique)
-	* 2.1. [Physical consideration](#Physicalconsideration)
-		* 2.1.1. [Fingertip injuries](#Fingertipinjuries)
-		* 2.1.2. [Warming Up](#WarmingUp)
-		* 2.1.3. [Posture](#Posture)
-	* 2.2. [Tone](#Tone)
-		* 2.2.1. [Feedback](#Feedback)
-		* 2.2.2. [EQ](#EQ)
-		* 2.2.3. [Effects](#Effects)
-		* 2.2.4. [Tone Controls](#ToneControls)
-	* 2.3. [Picks and Fingers](#PicksandFingers)
-	* 2.4. [Guitar Set-up](#GuitarSet-up)
-	* 2.5. [String Bending](#StringBending)
-	* 2.6. [Vibrato](#Vibrato)
-	* 2.7. [Muting Unwanted Notes](#MutingUnwantedNotes)
-		* 2.7.1. [Palm Muting](#PalmMuting)
-		* 2.7.2. [Other Solutions](#OtherSolutions)
-		* 2.7.3. [Muting And Bending](#MutingAndBending)
-		* 2.7.4. [Fast Muting](#FastMuting)
-		* 2.7.5. [Muting And Tapping](#MutingAndTapping)
-	* 2.8. [Tuning](#Tuning)
-		* 2.8.1. [Harmonics](#Harmonics)
-		* 2.8.2. [Standardised Tuning](#StandardisedTuning)
-		* 2.8.3. [Mechanical Difficulties](#MechanicalDifficulties)
-		* 2.8.4. [Perfect Pitch](#PerfectPitch)
-	* 2.9. [Timing](#Timing)
-		* 2.9.1. [The Human Touch](#TheHumanTouch)
-		* 2.9.2. [Using Metronomes](#UsingMetronomes)
-		* 2.9.3. [Swing](#Swing)
-		* 2.9.4. [More on Metronomes](#MoreonMetronomes)
-	* 2.10. [How To Practise](#HowToPractise)
-		* 2.10.1. [Speed](#Speed)
-		* 2.10.2. [Playing Without Looking](#PlayingWithoutLooking)
-		* 2.10.3. [Dynamics](#Dynamics)
-	* 2.11. [Finger Independence](#FingerIndependence)
-* 3. [Theory Without Tears](#TheoryWithoutTears)
-	* 3.1. [How to approach theory](#Howtoapproachtheory)
-	* 3.2. [Sight Reading](#SightReading)
-		* 3.2.1. [Pitch](#Pitch)
-		* 3.2.2. [Rhythm](#Rhythm)
-* 4. [Scales and Chords](#ScalesandChords)
-	* 4.1. [Scales and chords](#Scalesandchords)
-		* 4.1.1. [Hearing Scales and Chords](#HearingScalesandChords)
-		* 4.1.2. [Notes of the Scales](#NotesoftheScales)
-		* 4.1.3. [Changing Chords](#ChangingChords)
-		* 4.1.4. [The CAGED System](#TheCAGEDSystem)
-		* 4.1.5. [Seventh Chords](#SeventhChords)
-		* 4.1.6. [Arpeggios](#Arpeggios)
-		* 4.1.7. [The Relative Minor](#TheRelativeMinor)
-	* 4.2. [Modes](#Modes)
-	* 4.3. [Big Scary Chords](#BigScaryChords)
-	* 4.4. [Playing Over Key Changes](#PlayingOverKeyChanges)
-* 5. [On The CD](#OnTheCD)
-	* 5.1. [Track 1](#Track1)
-
-<!-- vscode-markdown-toc-config
-	numbering=true
-	autoSave=true
-	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc --><!-- vscode-markdown-toc -->
+- [Guthrie Govan - Creative Guitar 1](#guthrie-govan---creative-guitar-1)
+  - [1. General Stuff](#1-general-stuff)
+    - [1.1. Goals](#11-goals)
+    - [1.2. Keeping an open mind](#12-keeping-an-open-mind)
+    - [1.3. Transcribing](#13-transcribing)
+    - [1.4. Recording Yourself Playing](#14-recording-yourself-playing)
+  - [2. Technique](#2-technique)
+    - [2.1. Physical consideration](#21-physical-consideration)
+      - [2.1.1. Fingertip injuries](#211-fingertip-injuries)
+      - [2.1.2. Warming Up](#212-warming-up)
+      - [2.1.3. Posture](#213-posture)
+    - [2.2. Tone](#22-tone)
+      - [2.2.1. Feedback](#221-feedback)
+      - [2.2.2. EQ](#222-eq)
+      - [2.2.3. Effects](#223-effects)
+      - [2.2.4. Tone Controls](#224-tone-controls)
+    - [2.3. Picks and Fingers](#23-picks-and-fingers)
+    - [2.4. Guitar Set-up](#24-guitar-set-up)
+    - [2.5. String Bending](#25-string-bending)
+    - [2.6. Vibrato](#26-vibrato)
+    - [2.7. Muting Unwanted Notes](#27-muting-unwanted-notes)
+      - [2.7.1. Palm Muting](#271-palm-muting)
+      - [2.7.2. Other Solutions](#272-other-solutions)
+      - [2.7.3. Muting And Bending](#273-muting-and-bending)
+      - [2.7.4. Fast Muting](#274-fast-muting)
+      - [2.7.5. Muting And Tapping](#275-muting-and-tapping)
+    - [2.8. Tuning](#28-tuning)
+      - [2.8.1. Harmonics](#281-harmonics)
+      - [2.8.2. Standardised Tuning](#282-standardised-tuning)
+      - [2.8.3. Mechanical Difficulties](#283-mechanical-difficulties)
+      - [2.8.4. Perfect Pitch](#284-perfect-pitch)
+    - [2.9. Timing](#29-timing)
+      - [2.9.1. The Human Touch](#291-the-human-touch)
+      - [2.9.2. Using Metronomes](#292-using-metronomes)
+      - [2.9.3. Swing](#293-swing)
+      - [2.9.4. More on Metronomes](#294-more-on-metronomes)
+    - [2.10. How To Practise](#210-how-to-practise)
+      - [2.10.1. Speed](#2101-speed)
+      - [2.10.2. Playing Without Looking](#2102-playing-without-looking)
+      - [2.10.3. Dynamics](#2103-dynamics)
+    - [2.11. Finger Independence](#211-finger-independence)
+  - [3. Theory Without Tears](#3-theory-without-tears)
+    - [3.1. How to approach theory](#31-how-to-approach-theory)
+    - [3.2. Sight Reading](#32-sight-reading)
+      - [3.2.1. Pitch](#321-pitch)
+      - [3.2.2. Rhythm](#322-rhythm)
+  - [4. Scales and Chords](#4-scales-and-chords)
+    - [4.1. Scales and chords](#41-scales-and-chords)
+      - [4.1.1. Hearing Scales and Chords](#411-hearing-scales-and-chords)
+      - [4.1.2. Notes of the Scales](#412-notes-of-the-scales)
+      - [4.1.3. Changing Chords](#413-changing-chords)
+      - [4.1.4. The CAGED System](#414-the-caged-system)
+      - [4.1.5. Seventh Chords](#415-seventh-chords)
+      - [4.1.6. Arpeggios](#416-arpeggios)
+      - [4.1.7. The Relative Minor](#417-the-relative-minor)
+    - [4.2. Modes](#42-modes)
+    - [4.3. Big Scary Chords](#43-big-scary-chords)
+    - [4.4. Playing Over Key Changes](#44-playing-over-key-changes)
+  - [5. On The CD](#5-on-the-cd)
+    - [5.1. Track 1](#51-track-1)
 
 
 
@@ -424,8 +418,13 @@ params:
 
 ####  4.1.4. <a name='TheCAGEDSystem'></a>The CAGED System
 
-- 一种可视化指板关系的方法
-- based on open chord shapes for C A G E D
+- CAGED system 是什么；用途；
+  - 一种可视化指板关系的方法
+    - based on open chord shapes for C A G E D
+  - 与音阶 位置 关系：
+    - 地点检索，坐标索引
+      - 给定音名/音级，能够迅速反应所在box(CAGED)和弦按法，音阶位置(音阶指形)
+
 
 - CAGED指形
   - 记住根音位置！open shapes
@@ -442,6 +441,7 @@ params:
   - （Major scale and Penta pattern）
     - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20251028161441610.png)
   
+
   - 练习：
     - **注意事项：**
       - 四组弦 × 5个position(CAGED) × 4个Chord progression × 12个调
@@ -466,9 +466,15 @@ params:
     - **不同和弦 Chord Progression**
       - $I - IV - V$，$I - vi - ii- V$，$ii- V - I$,  $I - ii - iii - IV - V$ 整个neck弹奏 
         - Barre Chords
-          - CAGED block 循环演奏，整体就近
-          - **总计**： 5个position(CAGED) × 4个Chord progression × 12个调 = 240
-          - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20250914171843354.png)        
+          - Barre Chords 完整和弦
+            - 直接弹完整的和弦，可能反应不过来每个音是什么
+            - CAGED block 循环演奏，整体就近
+            - **总计**： 5个position(CAGED) × 4个Chord progression × 12个调 = 240
+            - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20250914171843354.png)        
+          - Barre Chords 低音连接
+            - CAGED block 低音 根音 或 根音五度  +  音阶连接到下一个和弦根音 
+            - 1）根音音阶连接 
+            - 2）根音+五度 + 音阶连接 到下一个和弦
         - Triads
           - 相同琴弦，就近
           - Triads 每三根弦 1-4-5……
@@ -607,7 +613,6 @@ params:
       - A minor pentatonic / A major pentatonic
 
   - 小调五声音阶练习曲
-    - 
 
 
 ####  4.1.5. <a name='SeventhChords'></a>Seventh Chords
@@ -855,4 +860,3 @@ z
   | 2m7-3m7-6m7| 6m7 | 2m7-3m7-6m7 | 6m7 |
   | 2m7-3m7-6m7| 6m7 | 1sus2 - 2sus2 | 4sus2-5sus2 |
   | 1sus2 | 3m11 | b7sus2 - 4sus2 | b7sus2 - 2m7 |
- 

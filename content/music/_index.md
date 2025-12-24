@@ -2,7 +2,7 @@
 title: My music
 type: docs
 sidebar:
-  open: true
+  open: false
 ---
  
 {{< cards >}}
@@ -10,5 +10,4 @@ sidebar:
   {{< card link="./吉他知识体系" title="吉他知识体系" icon="academic-cap" >}}
   {{< card link="./读书笔记" title="读书笔记" icon="bookmark" >}}
   {{< card link="./扒带记录" title="扒带记录" icon="bookmark" >}}
-  {{< card link="./软件_工具_其他" title="软件/电路/音色/工具" icon="bookmark" >}}
 {{< /cards >}}

@@ -3,7 +3,7 @@ title: 吉他音乐鉴赏
 type: docs
 weight: 6
 sidebar:
-  open: true
+  open: false
 ---
 
 {{< cards >}}
