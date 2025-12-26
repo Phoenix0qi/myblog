@@ -7,5 +7,5 @@ sidebar:
 ---
 
 {{< cards >}}
-  {{< card link="./听力" title="听力练习" icon="academic-cap" >}}
+  {{< card link="./听力练习" title="听力练习" icon="academic-cap" >}}
 {{< /cards >}}
