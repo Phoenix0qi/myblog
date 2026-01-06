@@ -1,16 +1,13 @@
 ---
 title: September - Earth, Wind and Fire
 type: docs
-weight: 1
 sidebar:
   open: false
 params:
-  math: true # 行内公式
+  math: true
+  tags: ['Funk', 'Disco']
 ---
 
+### 整体走向 Chord Progression
 
-
-## Tags
-- Funk
-- Disco
-- 
+### 知识点

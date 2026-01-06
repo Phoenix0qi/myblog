@@ -418,6 +418,10 @@ params:
 
 ####  4.1.4. <a name='TheCAGEDSystem'></a>The CAGED System
 
+- 参考材料
+  - 《GG-1》
+  - [POW Music - CAGED Sheet](https://learn.powmusic.co/p/my-downloadable-13022)
+
 - CAGED system 是什么；用途；
   - 一种可视化指板关系的方法
     - based on open chord shapes for C A G E D
@@ -429,15 +433,19 @@ params:
 - CAGED指形
   - 记住根音位置！open shapes
   - （Major Chords）相对关系图
-    - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20250914170719347.png)
-    - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20250914171154372.png)
     - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20251025143342423.png)
-    - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20251025145630291.png) (https://www.youtube.com/watch?v=0V_dF8soKpc)
+{{% details title="MORE CAGED MAJOR SHAPES"  closed="true" %}}
+  - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20250914170719347.png)
+  - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20250914171154372.png)
+  - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20251025145630291.png) (https://www.youtube.com/watch?v=0V_dF8soKpc)
+{{% /details %}}
   - （Minor Chords）相对关系图
-    - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20250914172413797.png)
     - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20251025143349326.png)
-    - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20251025144641382.png) (https://www.youtube.com/watch?v=0V_dF8soKpc)
-    - [POW Music - CAGED Sheet](https://learn.powmusic.co/p/my-downloadable-13022)
+{{% details title="MORE CAGED MINOR SHAPES"  closed="true" %}}  
+  - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20250914172413797.png)
+  - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20251025144641382.png) (https://www.youtube.com/watch?v=0V_dF8soKpc)
+  - [POW Music - CAGED Sheet](https://learn.powmusic.co/p/my-downloadable-13022)
+{{% /details %}}
   - （Major scale and Penta pattern）
     - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20251028161441610.png)
   
@@ -448,13 +456,13 @@ params:
       - **12个调，每天一个调，记忆音名，用音名思考音级**
       - 练习小范围traids时，注意整体位置CAGED，**大局观**
 
-    - **单个和弦 不同转位 Single Chord Triads & Inversions**
-      - **固定琴弦，水平移动。**
+    - **1. 单个和弦 不同转位 Single Chord Triads & Inversions**
+      - **1.1 固定琴弦，水平移动。**
         - 弦：123、234、345、456弦，平行移动，不同转位，添加音节音过度； 
         - 音：135、351、513、135。 琶音 + 柱式。 
         - 记忆CAGED指形 位置 which shape; 
         - **总计**： 四组弦 × 四个转位 × 7个和弦(调内大CM、小Am) = 112
-      - **固定区域，垂直移动。 琶音。**
+      - **1.2 固定区域，垂直移动。 琶音。**
         - 例 C major
         - C shape
           - 123 弦： 513
@@ -463,19 +471,19 @@ params:
           - 456 弦： 513
         - A shape、G、E、D shape 以此类推
         - **总计**： 四组弦 × CAGED(5) × 和弦数(7个和弦调内大CM、小Am) = 140
-    - **不同和弦 Chord Progression**
-      - $I - IV - V$，$I - vi - ii- V$，$ii- V - I$,  $I - ii - iii - IV - V$ 整个neck弹奏 
-        - Barre Chords
-          - Barre Chords 完整和弦
+    - **2. 不同和弦 Chord Progression**
+      - **$I - IV - V$，$I - vi - ii- V$，$ii- V - I$,  $I - ii - iii - IV - V - vi - vii$ 整个neck弹奏** 
+        - **2.1 Barre Chords**
+          - **2.1.1 Barre Chords 完整和弦**
             - 直接弹完整的和弦，可能反应不过来每个音是什么
             - CAGED block 循环演奏，整体就近
             - **总计**： 5个position(CAGED) × 4个Chord progression × 12个调 = 240
             - ![](https://raw.githubusercontent.com/Phoenix0qi/tuchaung/main/img/20250914171843354.png)        
-          - Barre Chords 低音连接
+          - **2.1.2 Barre Chords 低音连接**
             - CAGED block 低音 根音 或 根音五度  +  音阶连接到下一个和弦根音 
             - 1）根音音阶连接 
             - 2）根音+五度 + 音阶连接 到下一个和弦
-        - Triads
+        - **2.2 Triads**
           - 相同琴弦，就近
           - Triads 每三根弦 1-4-5……
           - 123、234、345、456弦   

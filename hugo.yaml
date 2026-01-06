@@ -131,7 +131,12 @@ menu:
 # toc: false
 # ---
 
+
 params:
+  page_view_conter: true
+  hasCJKLanguage: true
+
+  # sidebar 默认关闭
   sidebar:
     open: false
     defaultOpen: false
