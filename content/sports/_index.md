@@ -6,8 +6,8 @@ sidebar:
 ---
 
 {{< cards >}}
-  {{< card link="./winter_sports" title="Winter Sports" icon="snowflake" >}}
-  {{< card link="./swimming" title="Swimming" icon="waves" >}}
-  {{< card link="./running" title="Running Notes" icon="footprints" >}}
-  {{< card link="./workout" title="Workout Plan" icon="dumbbell" >}}
+  {{< card link="./winter_sports" title="Winter Sports" icon="cloud" >}}
+  {{< card link="./swimming" title="Swimming" icon="lifebuoy" >}}
+  {{< card link="./running" title="Running Notes" icon="bolt" >}}
+  {{< card link="./workout" title="Workout Plan" icon="calendar" >}}
 {{< /cards >}}

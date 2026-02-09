@@ -4,30 +4,32 @@ import os
 structure = {
     "sports": {
         "title": "Sports & Fitness",
+        # 主板块可以使用 trophy (奖杯) 或 heart (健康) - 这里代码里不直接设置主板块图标，
+        # 而是设置主板块_index.md里的子卡片图标。
         "items": [
-            # 冰雪运动 (滑雪/滑冰) - 图标用 snowflake
-            {"name": "winter_sports", "title": "Winter Sports", "icon": "snowflake"},
-            # 游泳 - 图标用 waves (波浪)
-            {"name": "swimming", "title": "Swimming", "icon": "waves"},
-            # 跑步 (保留)
-            {"name": "running", "title": "Running Notes", "icon": "footprints"},
-            # 健身计划 (保留)
-            {"name": "workout", "title": "Workout Plan", "icon": "dumbbell"}
+            # 冰雪运动 -> cloud (天气/雪)
+            {"name": "winter_sports", "title": "Winter Sports", "icon": "cloud"},
+            # 游泳 -> lifebuoy (救生圈/水上)
+            {"name": "swimming", "title": "Swimming", "icon": "lifebuoy"},
+            # 跑步 -> bolt (闪电/速度)
+            {"name": "running", "title": "Running Notes", "icon": "bolt"},
+            # 健身计划 -> calendar (日程/计划)
+            {"name": "workout", "title": "Workout Plan", "icon": "calendar"}
         ]
     },
     "cooking": {
         "title": "Culinary Arts",
         "items": [
-            # 甜点 - 图标用 cake
+            # 甜点 -> cake (蛋糕)
             {"name": "desserts", "title": "Desserts & Baking", "icon": "cake"},
-            # 肉类: 牛肉/红肉 - 图标用 flame (火焰/煎烤)
-            {"name": "meats", "title": "Steaks & Red Meat", "icon": "flame"},
-            # 肉类: 鱼/海鲜 - 图标用 fish
-            {"name": "seafood", "title": "Seafood & Fish", "icon": "fish"},
-            # 披萨 - 图标用 sun (形状类似披萨) 或 asterisk
+            # 肉类/牛排 -> fire (煎烤/火候)
+            {"name": "meats", "title": "Steaks & Red Meat", "icon": "fire"},
+            # 海鲜 -> scale (称重/厨房秤 - 列表中没有鱼，这是最相关的厨房工具)
+            {"name": "seafood", "title": "Seafood & Fish", "icon": "scale"},
+            # 披萨 -> sun (圆形/高温)
             {"name": "pizza", "title": "Pizza Lab", "icon": "sun"},
-            # 饮品: 咖啡与酒 - 图标用 glass-water 或 coffee
-            {"name": "beverages", "title": "Coffee & Wine", "icon": "glass-water"}
+            # 饮品 -> beaker (烧杯 - 代表调酒/咖啡实验)
+            {"name": "beverages", "title": "Coffee & Wine", "icon": "beaker"}
         ]
     }
 }
