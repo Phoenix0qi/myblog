@@ -45,14 +45,14 @@ menu:
       name: Docs
       pageRef: /docs
       weight: 1
-    - name: Blog
-      pageRef: /blogs
-      weight: 2
+    # - name: Blog
+    #   pageRef: /blogs
+    #   weight: 2
     
     - identifier: 科研
       name: PhD Research
       pageRef: /科研
-      weight: 2
+      weight: 5
 
     - identifier: music
       name: Music
@@ -93,16 +93,80 @@ menu:
       pageRef: /music/代码工具_规划
       weight: 4
 
+
+# ==========================
+    # Sports 子菜单 (Parent: sports)
+    # ==========================
+    - identifier: winter_sports
+      name: Winter Sports
+      parent: sports
+      pageRef: /sports/winter_sports
+      weight: 1
+
+    - identifier: swimming
+      name: Swimming
+      parent: sports
+      pageRef: /sports/swimming
+      weight: 2
+
+    - identifier: running
+      name: Running Notes
+      parent: sports
+      pageRef: /sports/running
+      weight: 3
+
+    - identifier: workout
+      name: Workout Plan
+      parent: sports
+      pageRef: /sports/workout
+      weight: 4
+
+    # ==========================
+    # Cooking 子菜单 (Parent: cooking)
+    # ==========================
+    - identifier: desserts
+      name: Desserts & Baking
+      parent: cooking
+      pageRef: /cooking/desserts
+      weight: 1
+
+    - identifier: meats
+      name: Steaks & Red Meat
+      parent: cooking
+      pageRef: /cooking/meats
+      weight: 2
+
+    - identifier: seafood
+      name: Seafood & Fish
+      parent: cooking
+      pageRef: /cooking/seafood
+      weight: 3
+
+    - identifier: pizza
+      name: Pizza Lab
+      parent: cooking
+      pageRef: /cooking/pizza
+      weight: 4
+
+    - identifier: beverages
+      name: Coffee & Wine
+      parent: cooking
+      pageRef: /cooking/beverages
+      weight: 5
+
+
+
+
     - name: Contact ↗
       url: "https://github.com/Phoenix0qi"
-      weight: 3
+      weight: 7
     - name: Search
-      weight: 4
+      weight: 8
       params:
         type: search
 
     - name: GitHub
-      weight: 5
+      weight: 9
       url: "https://github.com/Phoenix0qi/myblog"
       params:
         icon: github
