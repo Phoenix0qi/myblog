@@ -54,13 +54,24 @@ menu:
       pageRef: /科研
       weight: 2
 
-
-
     - identifier: music
       name: Music
       pageRef: /music
       weight: 2
 
+    # 新增：做饭厨艺
+    - identifier: cooking
+      name: Cooking
+      pageRef: /cooking
+      weight: 3
+
+    # 新增：运动
+    - identifier: sports
+      name: Sports
+      pageRef: /sports
+      weight: 4
+
+      
     - identifier: 吉他知识体系
       name: 吉他知识体系
       parent: music
