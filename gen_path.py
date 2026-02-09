@@ -10,9 +10,9 @@ structure = {
             # 冰雪运动 -> cloud (天气/雪)
             {"name": "winter_sports", "title": "Winter Sports", "icon": "cloud"},
             # 游泳 -> lifebuoy (救生圈/水上)
-            {"name": "swimming", "title": "Swimming", "icon": "lifebuoy"},
+            {"name": "swimming", "title": "Swimming", "icon": "academic-cap"},
             # 跑步 -> bolt (闪电/速度)
-            {"name": "running", "title": "Running Notes", "icon": "bolt"},
+            {"name": "running", "title": "Running Notes", "icon": "lightning-bolt"},
             # 健身计划 -> calendar (日程/计划)
             {"name": "workout", "title": "Workout Plan", "icon": "calendar"}
         ]
