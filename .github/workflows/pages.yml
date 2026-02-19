@@ -31,7 +31,7 @@ jobs:
               uses: peaceiris/actions-hugo@v3
               with:
                   # 必须把 "latest" 改为具体的旧版本号
-                  hugo-version: "0.140.0" 
+                  hugo-version: "0.148.0" 
                   extended: true
 
             - name: Build Web   
