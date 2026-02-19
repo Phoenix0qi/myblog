@@ -297,6 +297,12 @@ params:
   #     websiteID: "94db1cb1-74f4-4a40-ad6c-962362670409"
 
 
-Author:
-  name: Phoenix0qi
-  email: 1757197756@qq.com
+
+params:
+  author:
+    name: "Phoenix0qi"
+    email: "1757197756@qq.com"
+
+author:
+  name: "Phoenix0qi"
+  email: "1757197756@qq.com"
