@@ -22,10 +22,17 @@ jobs:
                   submodules: true
                   fetch-depth: 0
 
+            # - name: Setup Hugo
+            #   uses: peaceiris/actions-hugo@v2
+            #   with:
+            #       hugo-version: "latest"
+
             - name: Setup Hugo
-              uses: peaceiris/actions-hugo@v2
+              uses: peaceiris/actions-hugo@v3
               with:
-                  hugo-version: "latest"
+                  # 必须把 "latest" 改为具体的旧版本号
+                  hugo-version: "0.140.0" 
+                  extended: true
 
             - name: Build Web   
               run: hugo
