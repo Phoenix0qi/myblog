@@ -87,5 +87,11 @@ sidebar:
             
         print(f"✅ Successfully updated section: {section}")
 
+
+
+
+# gen content 
+
+
 if __name__ == "__main__":
     create_hugo_content()
