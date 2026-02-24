@@ -211,7 +211,7 @@ params:
   page_view_conter: true
   hasCJKLanguage: true
 
-  google-site-verification: 9aOroJ-lin7ELvuWKyMmi7I1dJoTBGeZWdfY0aKanXw
+  google-site-verification: "9aOroJ-lin7ELvuWKyMmi7I1dJoTBGeZWdfY0aKanXw"
 
   # sidebar 默认关闭
   sidebar:
